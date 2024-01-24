@@ -5,7 +5,7 @@ As Federated Learning (FL) gains prominence in secure machine learning applicati
 * [Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing)
 * [Default](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
 * [Law School](https://github.com/iosifidisvasileios/FABBOO/blob/master/Data/law_dataset.arff)
-* [ACS Income Dataset](https://github.com/socialfoundations/folktables)
+* [ACS Income Dataset](https://github.com/socialfoundations/folktables): Use this repository to download ACS dataset.
 ## Code
 ### Dataset Processing Scripts
 
