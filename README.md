@@ -11,15 +11,21 @@ As Federated Learning (FL) gains prominence in secure machine learning applicati
 
 The `datasets` directory contains all the datasets used in this project. Below is a description of python scripts written to process datasets:
 
-- `load_data_utilities.py`: Utility script for loading and preprocessing all the datasets (Adult, Bank, Default, Law, ACS).
+- `load_data_trustfed.py`: Utility script for loading all the datasets (Adult, Bank, Default, Law, ACS).
+- `load_data_adult.py`: Utility script for loading and preprocessing Adult dataset.
+- `load_data_bank.py`: Utility script for loading and preprocessing Bank dataset.
+- `load_data_law.py`: Utility script for loading and preprocessing Law School dataset.
+- `load_data_default.py`: Utility script for loading and preprocessing Default dataset.
+- `load_data_acs.py`: Utility script for loading and preprocessing ACS Income dataset.
+
 
 ### Utility Scripts
-- `utilities.py`: Utility script for computing evaluation metrics including 'statistical parity', Equal Opportunity (Eqop), balanced accuracy, and accuracy.
+- `utilities_trustfed.py`: Utility script for computing evaluation metrics including 'statistical parity', Equal Opportunity (Eqop), balanced accuracy, and accuracy.
 
 ### TrustFed main scripts
 The following scripts constitute the complete methodology of TrustFed
 - `Trustfed.py`: Main script for the 'TrustFed' framework that orchestrates the fairness aware federated learning process on different datasets with privacy guarantees.
-- `constraint.py`: The script contains the implementation of fairness constraints for discrimination mitigation.
+- `constraint_trsutfed.py`: The script contains the implementation of fairness constraints for discrimination mitigation.
   
 ## Running the FairTrade.py Script
 To run the `FairTrade.py` script with the default settings, you can use the following command:
