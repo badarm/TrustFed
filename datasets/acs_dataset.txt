@@ -1,0 +1,1 @@
+Use this repository to download ACS Income dataset: https://github.com/socialfoundations/folktables
