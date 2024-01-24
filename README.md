@@ -27,11 +27,11 @@ The following scripts constitute the complete methodology of TrustFed
 - `Trustfed.py`: Main script for the 'TrustFed' framework that orchestrates the fairness aware federated learning process on different datasets with privacy guarantees.
 - `constraint_trsutfed.py`: The script contains the implementation of fairness constraints for discrimination mitigation.
   
-## Running the FairTrade.py Script
-To run the `FairTrade.py` script with the default settings, you can use the following command:
+## Running the Trustfed.py Script
+To run the `Trustfed.py` script with the default settings, you can use the following command:
 
 ```bash
-python FairTrade.py --with_noise 'yes' --fairness_notion 'stat_parity' --num_clients 3 --dataset_name 'bank' --epochs 15 --communication_rounds 50 --mobo_optimization_rounds 10 --noise_type 'gaussian' --epsilon 3
+python Trustfed.py --with_noise 'yes' --fairness_notion 'stat_parity' --num_clients 3 --dataset_name 'bank' --epochs 15 --communication_rounds 50 --mobo_optimization_rounds 10 --noise_type 'gaussian' --epsilon 3
 ```
 ## Prerequisites
 
