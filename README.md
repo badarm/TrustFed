@@ -31,7 +31,7 @@ The following scripts constitute the complete methodology of TrustFed
 To run the `FairTrade.py` script with the default settings, you can use the following command:
 
 ```bash
-python FairTrade.py --with_noise 'yes' --fairness_notion 'stat_parity' --num_clients 3 --dataset_name 'bank' --epochs 15 --communication_rounds 50 --mobo_optimization_rounds 10 --distribution_type 'random'
+python FairTrade.py --with_noise 'yes' --fairness_notion 'stat_parity' --num_clients 3 --dataset_name 'bank' --epochs 15 --communication_rounds 50 --mobo_optimization_rounds 10 --noise_type 'gaussian' --epsilon 3
 ```
 ## Prerequisites
 
