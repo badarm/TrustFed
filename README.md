@@ -46,3 +46,7 @@ Before running the script, ensure you have the following Python libraries instal
 - crypten==0.4.1
 - cvxopt==1.3.1
 - cvxpy==1.3.2
+
+##Citation request
+Please cite this work if you use this repository as a baseline:
+Badar, Maryam, Sandipan Sikdar, Wolfgang Nejdl, and Marco Fisichella. "TrustFed: Navigating Trade-offs Between Performance, Fairness, and Privacy in Federated Learning." In ECAI 2024, pp. 2370-2377. IOS Press, 2024.
